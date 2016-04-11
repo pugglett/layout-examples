@@ -1,0 +1,36 @@
+/* styles for body, container,
+and styles that are applied to multiple elements */
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-image: url(images/dxg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #000080;
+	margin: 0;
+	display: table;
+}
+
+.container {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+a:active, a:hover, a:visited, a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	font-weight: bold;
+	background-color: #cccccc;
+
+
