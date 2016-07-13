@@ -7,9 +7,11 @@
 	<title>Basic Template</title>
 	<!-- link to external CSS document, which is saved in the same folder -->
 	<link rel="stylesheet" type="text/css" href="hero-style.css">
-	<script type="text/javascript">
-	if (window.screen.width < 700) {
-   document.location.replace('https://developer.mozilla.org/en-US/docs/Web/API/Location.reload');
+	<script>
+// Check if the condition is true and then redirect.
+if ( window.screen.width < 700 ) {
+  window.location.replace("http://stackoverflow.com");
+
 }
 </script>
 </head>
